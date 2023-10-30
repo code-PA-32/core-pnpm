@@ -3,7 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {},
+  "types": "./dist/index.d.ts",
+  "source": "./src/index.ts",
+  "imports": {
+    "#*": "./src/*"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./src/shared-globals.css": "./src/shared-globals.css"
+  },
+  "scripts": {
+    "build": "tsup --format esm"
+  },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.0.2",
@@ -15,6 +26,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@core/tailwind": "workspace:*",
     "@types/node": "^20.8.9",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
@@ -23,6 +35,7 @@
     "@vitejs/plugin-react-swc": "^3.3.2",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.45.0",
+    "tsup": "~7.2.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.31",
