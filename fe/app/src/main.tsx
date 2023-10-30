@@ -1,12 +1,18 @@
+import { RouterProvider } from "@tanstack/react-router"
+import { ThemeProvider } from "next-themes"
 import React from "react"
 import ReactDOM from "react-dom/client"
 
-import { App } from "#/app.js"
+import { Toaster } from "@core/ui"
+
+import { router } from "#/router.js"
+import "#/services/supertokens.js"
 
 import "./globals.css"
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ThemeProvider attribute="class">
+    <Toaster />
+    <RouterProvider router={router} />
+  </ThemeProvider>,
 )

@@ -13,29 +13,36 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@core/ui": "workspace:*",
+    "@tanstack/react-router": "0.0.1-beta.198",
+    "eslint": "~8.52.0",
+    "lucide-react": "~0.290.0",
+    "next-themes": "~0.2.1",
     "react": "~18.2.0",
     "react-dom": "~18.2.0",
-    "eslint": "~8.52.0",
-    "@core/ui": "workspace:*"
+    "supertokens-auth-react": "~0.35.6"
   },
   "devDependencies": {
     "@babel/core": "~7.23.2",
-    "@core/tailwind-configs": "workspace:*",
     "@core/eslint-configs": "workspace:*",
-    "autoprefixer": "~10.4.16",
-    "@types/react": "~18.2.33",
-    "postcss": "~8.4.31",
+    "@core/tailwind-configs": "workspace:*",
     "@types/node": "~20.8.6",
-    "tailwindcss": "~3.3.5",
-    "tailwindcss-animate": "~1.0.7",
+    "@types/react": "~18.2.33",
     "@types/react-dom": "~18.2.14",
     "@typescript-eslint/eslint-plugin": "~6.9.0",
     "@typescript-eslint/parser": "~6.9.0",
     "@vitejs/plugin-react-swc": "~3.4.0",
+    "autoprefixer": "~10.4.16",
     "eslint": "~8.52.0",
     "eslint-plugin-react-hooks": "~4.6.0",
     "eslint-plugin-react-refresh": "~0.4.4",
+    "postcss": "~8.4.31",
+    "tailwindcss": "~3.3.5",
+    "tailwindcss-animate": "~1.0.7",
     "typescript": "~5.2.2",
     "vite": "~4.5.0"
+  },
+  "peerDependencies": {
+    "supertokens-web-js": "~0.8.0"
   }
 }
