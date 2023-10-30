@@ -3,3 +3,4 @@ packages:
   - "be/app"
   - "packages/ui"
   - "configs/tailwind"
+  - "configs/eslint"

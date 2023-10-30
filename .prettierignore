@@ -1,0 +1,24 @@
+# Ignore artifacts:
+build
+coverage
+dist
+# From gitignore:
+node_modules
+.next
+artifacts
+cache
+.env.local
+.vercel
+.idea
+.env
+.vscode
+.DS_Store
+settings.json
+pnpm-lock.yaml
+# Sentry
+.sentryclirc
+out
+# Generated
+schema.graphql
+# Import order dependant, hoisted call: https://vitest.dev/api/#vi-mock
+test.prisma-mock.ts
