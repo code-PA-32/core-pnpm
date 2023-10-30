@@ -3,7 +3,6 @@ module.exports = {
   semi: false,
   trailingComma: "all",
   printWidth: 90,
-  importOrder: ["^@core/(.*)$", "~/(.*)$", "#(.*)$",  "^[./]"],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
   importOrderCaseInsensitive: false,
