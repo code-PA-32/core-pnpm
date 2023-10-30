@@ -2,3 +2,4 @@ packages:
   - "fe/app"
   - "be/app"
   - "packages/ui"
+  - "configs/tailwind"

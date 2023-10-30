@@ -1,7 +1,9 @@
-export const App =()=> {
+import {Button} from "@core/ui"
+
+export const App = () => {
   return (
     <>
-      Vite
+      <Button>Hello</Button>
     </>
   )
 }
