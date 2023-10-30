@@ -5,7 +5,6 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
     "../../configs/eslint/index.js",
-    // "@core/eslint-configs"
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {

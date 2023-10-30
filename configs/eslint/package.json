@@ -15,7 +15,6 @@
   "dependencies": {
     "@babel/core": "~7.23.2",
     "@babel/eslint-parser": "~7.22.15",
-    "@babel/plugin-proposal-private-property-in-object": "~7.21.11",
     "@rushstack/eslint-patch": "~1.5.1",
     "@rushstack/eslint-plugin-packlets": "~0.8.1",
     "@typescript-eslint/eslint-plugin": "~6.9.0",
