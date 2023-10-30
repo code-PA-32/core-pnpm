@@ -1,4 +1,4 @@
-import {Button} from "@core/ui"
+import { Button } from "@core/ui"
 
 export const App = () => {
   return (
@@ -7,4 +7,3 @@ export const App = () => {
     </>
   )
 }
-
