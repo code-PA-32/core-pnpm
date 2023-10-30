@@ -4,3 +4,4 @@ packages:
   - "packages/ui"
   - "configs/tailwind"
   - "configs/eslint"
+  - "packages/database-schema"

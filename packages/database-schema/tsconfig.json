@@ -1,0 +1,19 @@
+{
+  "include": ["src", "tsup.config.ts", "drizzle.config.ts"],
+  "compilerOptions": {
+    "module": "NodeNext",
+    "lib": ["dom", "esnext"],
+    "declaration": false,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+  }
+}
