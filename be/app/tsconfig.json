@@ -17,9 +17,6 @@
     "rootDir": "./src",
     "outDir": "./dist"
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-  ],
+  "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "*/**/*.graphql"]
 }
