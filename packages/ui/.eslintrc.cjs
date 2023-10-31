@@ -4,5 +4,5 @@ module.exports = {
   parserOptions: {
     tsconfigRootDir: __dirname,
   },
-  extends: ["../../configs/eslint/index.js"],
+  extends: ["./node_modules/@core/eslint-configs"],
 }
