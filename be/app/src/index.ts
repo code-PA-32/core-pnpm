@@ -49,7 +49,7 @@ fastify.addHook("preHandler", (request, reply, done) => {
     {
       req: request,
     },
-    "request started",
+    "Request started",
   )
   done()
 })
@@ -63,7 +63,7 @@ fastify.addHook("onResponse", (request, reply, done) => {
       },
       responseTime,
     },
-    "request completed",
+    "Request completed",
   )
   done()
 })
@@ -73,5 +73,4 @@ void fastify
   .then(() => fastify.log.info("Server started on port 4000"))
   .catch((err) => {
     fastify.log.error(err)
-    process.exit(1)
   })
