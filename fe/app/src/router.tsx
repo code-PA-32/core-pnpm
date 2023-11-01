@@ -13,10 +13,10 @@ const RootRedirect = () => {
     <>
       <div className="flex justify-between p-2">
         <div className="flex gap-2">
-          <Link to="/login">
+          <Link to={LoginIndex.to} from={rootRoute.to} params={{}} search={{}}>
             <Button>Login</Button>
           </Link>
-          <Link to="/setting">
+          <Link to={SettingIndex.to} from={rootRoute.to} params={{}} search={{}}>
             <Button>Setting</Button>
           </Link>
         </div>

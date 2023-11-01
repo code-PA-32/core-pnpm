@@ -105,7 +105,7 @@ const Setting = () => {
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
-      <Link to="/">
+      <Link to={rootRoute.to} from={SettingIndex.to} params={{}} search={{}}>
         <Button>Main</Button>
       </Link>
     </div>

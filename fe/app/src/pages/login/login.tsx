@@ -32,7 +32,7 @@ const Login = () => {
     <div>
       <div className="flex flex-col gap-3 text-center text-xl">
         <h1>Welcome to login page</h1>
-        <Link to="/">
+        <Link to={rootRoute.to} from={LoginIndex.to} search={{}} params={{}}>
           <Button>Main</Button>
         </Link>
       </div>
